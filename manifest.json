@@ -1,0 +1,14 @@
+{
+   "info" : {
+      "name" : "Amberstone",
+      "namespace": "amberstone",
+      "version" : 3
+   },
+   "aliases" : {
+      "sample_object" : "file(entities/sample_object/sample_object.json)", 
+      "piggy_bank"    : "file(entities/piggy_bank/piggy_bank.json)"
+   }, 
+   "mixintos" : {
+      "stonehearth/jobs/carpenter/recipes/recipes.json" : "file(recipes/recipes.json)"
+   }
+}

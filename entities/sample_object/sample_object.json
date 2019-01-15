@@ -1,0 +1,19 @@
+{
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(sample.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "description": "i18n(startermod_basic:entities.sample_object.description)",
+         "icon": "file(sample.png)",
+         "display_name": "i18n(startermod_basic:entities.sample_object.display_name)"
+      }
+   }
+}
