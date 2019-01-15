@@ -10,5 +10,16 @@
             "description": "Reminder to be responsible."
          }
       }
+   },
+   "data": {
+      "population": {
+	     "amberstone_clan": {
+		    "display_name": "Amberstone Clan",
+			"quote": "hi",
+			"description": "something something magix",
+			"post_selection_description": "good day traveler!",
+			"initial_town_name": "Bunny town"
+		 }
+	  }
    }
 }
