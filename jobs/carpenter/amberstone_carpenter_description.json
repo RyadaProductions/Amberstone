@@ -1,0 +1,7 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:carpenter",
+   "equipment": {
+      "torso": "file(amberstone_carpenter_outfit)"
+   }
+}

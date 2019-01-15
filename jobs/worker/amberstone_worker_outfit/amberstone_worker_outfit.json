@@ -1,0 +1,57 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:worker:outfit",
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "default": "override",
+            "female": "override",
+            "rabbit_male": "override",
+            "rabbit_female": "override",
+            "orc_male": "override",
+            "orc_female": "override"
+         },
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_worker_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_worker_outfit_female.qb)"
+            ]
+         },
+         "rabbit_male": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_worker_outfit.qb)"
+            ]
+         },
+         "rabbit_female": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_worker_outfit_female.qb)"
+            ]
+         },
+         "orc_male": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_worker_outfit.qb)"
+            ]
+         },
+         "ork_female": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_worker_outfit_female.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(amberstone_worker_outfit.png)"
+      }
+   }
+}

@@ -7,9 +7,30 @@
    "author": "The Amberstone mod team",
    "default_locale": "en",
    "aliases": {
-	  "kingdoms:amberstone_clan": "file(data/kingdoms/amberstone_clan/amberstone_clan_population.json)"
+	   "kingdoms:amberstone_clan": "file(data/kingdoms/amberstone_clan/amberstone_clan_population.json)",
+      "jobs:index": "file(jobs/amberstone_index.json)",
+      "jobs:archer": "file(jobs/archer/amberstone_archer_description.json)",
+      "jobs:blacksmith": "file(jobs/blacksmith/amberstone_blacksmith_description.json)",
+      "jobs:carpenter": "file(jobs/carpenter/amberstone_carpenter_description.json)",
+      "jobs:cleric": "file(jobs/cleric/amberstone_cleric_description.json)",
+      "jobs:cook": "file(jobs/cook/amberstone_cook_description.json)",
+      "jobs:engineer": "file(jobs/engineer/amberstone_engineer_description.json)",
+      "jobs:farmer": "file(jobs/farmer/amberstone_farmer_description.json)",
+      "jobs:footman": "file(jobs/footman/amberstone_footman_description.json)",
+      "jobs:geomancer": "file(jobs/geomancer/amberstone_geomancer_description.json)",
+      "jobs:herbalist": "file(jobs/herbalist/amberstone_herbalist_description.json)",
+      "jobs:knight": "file(jobs/knight/amberstone_knight_description.json)",
+      "jobs:mason": "file(jobs/mason/amberstone_mason_description.json)",
+      "jobs:potter": "file(jobs/potter/amberstone_potter_description.json)",
+      "jobs:shepherd": "file(jobs/shepherd/amberstone_shepherd_description.json)",
+      "jobs:trapper": "file(jobs/trapper/amberstone_trapper_description.json)",
+      "jobs:weaver": "file(jobs/weaver/amberstone_weaver_description.json)",
+      "jobs:worker": "file(jobs/worker/amberstone_worker_description.json)"
    }, 
    "mixintos": {
-	  "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)"
-   }
+	   "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)"
+   },
+	"overrides" : {},
+	"components" : {},
+   "controllers" : {}
 }

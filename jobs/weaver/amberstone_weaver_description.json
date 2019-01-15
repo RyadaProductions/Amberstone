@@ -1,0 +1,7 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:weaver",
+   "equipment": {
+      "torso": "file(amberstone_weaver_outfit)"
+   }
+}

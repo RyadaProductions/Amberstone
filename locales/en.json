@@ -1,23 +1,11 @@
 {
-   "entities": {
-      "sample_object": {
-         "display_name": "Sample Object",
-         "description": "Sample description."
-      },
-      "piggy_bank": {
-         "piggy_bank_ghost": {
-            "display_name": "Wooden Piggy Bank",
-            "description": "Reminder to be responsible."
-         }
-      }
-   },
    "data": {
       "population": {
 	     "amberstone_clan": {
-		    "display_name": "Amberstone Clan",
+		    "display_name": "the Amberstone Clan",
 			"quote": "hi",
 			"description": "something something magix",
-			"post_selection_description": "good day traveler!",
+			"post_selection_description": ", a long forgotten clan.",
 			"initial_town_name": "Bunny town"
 		 }
 	  }

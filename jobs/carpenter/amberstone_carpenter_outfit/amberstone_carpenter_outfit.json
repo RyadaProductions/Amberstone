@@ -1,0 +1,29 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:carpenter:outfit",
+   "components": {
+      "mixintypes": {
+         "default": "override",
+         "female": "override"
+      },
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_carpenter_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_carpenter_outfit_female.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(amberstone_carpenter_outfit.png)"
+      }
+   }
+}

@@ -1,0 +1,33 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:trapper:outfit",
+   "components": {
+      "mixintypes": {
+         "default": "override",
+         "female": "override"
+      },
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_trapper_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_trapper_outfit_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "render_type": "merge_with_model",
+         "slot": "torso"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(amberstone_trapper_outfit.png)"
+      }
+   }
+}

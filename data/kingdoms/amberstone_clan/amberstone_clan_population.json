@@ -12,7 +12,7 @@
    "starting_resource": "stonehearth:resources:wood:oak_log",
    "initial_town_name": "i18n(amberstone:data.population.amberstone_clan.initial_town_name)",
    "camp_standard": "stonehearth:camp_standard",
-   "job_index": "stonehearth:jobs:index",
+   "job_index": "amberstone:jobs:index",
    "inventory_capacity_equation": "math.max(num_citizens * 150, 1200)",
    "trappable_animals": "stonehearth:data:trapping:all_trappable_animals",
    "default_material": "wood_resource",

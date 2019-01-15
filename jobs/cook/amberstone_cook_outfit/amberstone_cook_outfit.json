@@ -1,0 +1,29 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:cook:outfit",
+   "components": {
+      "mixintypes": {
+         "default": "override",
+         "female": "override"
+      },
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_cook_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_cook_outfit_female.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(amberstone_cook_outfit.png)"
+      }
+   }
+}

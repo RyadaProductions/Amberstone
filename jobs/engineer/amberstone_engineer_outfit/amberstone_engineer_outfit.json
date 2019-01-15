@@ -1,0 +1,29 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:engineer:outfit",
+   "components": {
+      "mixintypes": {
+         "default": "override",
+         "female": "override"
+      },
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_engineer_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_engineer_outfit_female.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(amberstone_engineer_outfit.png)"
+      }
+   }
+}

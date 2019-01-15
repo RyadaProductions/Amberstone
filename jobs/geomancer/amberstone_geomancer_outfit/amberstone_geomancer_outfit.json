@@ -1,0 +1,43 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:geomancer:outfit",
+   "components": {
+      "mixintypes": {
+         "default": "override",
+         "female": "override",
+         "rabbit_male": "override",
+         "rabbit_female": "override"
+      },
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_geomancer_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_geomancer_outfit_female.qb)"
+            ]
+         },
+         "rabbit_male": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_geomancer_outfit.qb)"
+            ]
+         },
+         "rabbit_female": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_geomancer_outfit_female.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "icon": "file(amberstone_geomancer_outfit.png)"
+      }
+   }
+}

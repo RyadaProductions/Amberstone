@@ -1,0 +1,7 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:trapper",
+   "equipment": {
+      "torso": "file(amberstone_trapper_outfit)"
+   }
+}

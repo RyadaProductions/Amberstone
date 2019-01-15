@@ -1,0 +1,56 @@
+{
+   "mixins": "stonehearth:jobs:index",
+   "jobs": {
+      "stonehearth:jobs:archer": {
+         "description": "amberstone:jobs:archer"
+      },
+      "stonehearth:jobs:blacksmith": {
+         "description": "amberstone:jobs:blacksmith"
+      },
+      "stonehearth:jobs:carpenter": {
+         "description": "amberstone:jobs:carpenter"
+      },
+      "stonehearth:jobs:cleric": {
+         "description": "amberstone:jobs:cleric"
+      },
+      "stonehearth:jobs:cook": {
+         "description": "amberstone:jobs:cook"
+      },
+      "stonehearth:jobs:engineer": {
+         "description": "amberstone:jobs:engineer"
+      },
+      "stonehearth:jobs:farmer": {
+         "description": "amberstone:jobs:farmer"
+      },
+      "stonehearth:jobs:footman": {
+         "description": "amberstone:jobs:footman"
+      },
+      "stonehearth:jobs:geomancer": {
+         "description": "amberstone:jobs:geomancer"
+      },
+      "stonehearth:jobs:herbalist": {
+         "description": "amberstone:jobs:herbalist"
+      },
+      "stonehearth:jobs:knight": {
+         "description": "amberstone:jobs:knight"
+      },
+      "stonehearth:jobs:mason": {
+         "description": "amberstone:jobs:mason"
+      },
+      "stonehearth:jobs:potter": {
+         "description": "amberstone:jobs:potter"
+      },
+      "stonehearth:jobs:shepherd": {
+         "description": "amberstone:jobs:shepherd"
+      },
+      "stonehearth:jobs:trapper": {
+         "description": "amberstone:jobs:trapper"
+      },
+      "stonehearth:jobs:weaver": {
+         "description": "amberstone:jobs:weaver"
+      },
+      "stonehearth:jobs:worker": {
+         "description": "amberstone:jobs:worker"
+      }
+   }
+}

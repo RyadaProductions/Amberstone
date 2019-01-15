@@ -1,0 +1,7 @@
+{
+   "type": "job",
+   "mixins": "stonehearth:jobs:cook",
+   "equipment": {
+      "torso": "file(amberstone_cook_outfit)"
+   }
+}
