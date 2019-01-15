@@ -1,18 +1,15 @@
 {
-   "info" : {
+   "info": {
       "name" : "Amberstone",
       "namespace": "amberstone",
       "version" : 3
    },
    "author": "The Amberstone mod team",
    "default_locale": "en",
-   "aliases" : {
-      "sample_object" : "file(entities/sample_object/sample_object.json)", 
-      "piggy_bank"    : "file(entities/piggy_bank/piggy_bank.json)",
+   "aliases": {
 	  "kingdoms:amberstone": "file(data/kingdoms/amberstone_clan/amberstone_clan_population.json)"
    }, 
-   "mixintos" : {
-      "stonehearth/jobs/carpenter/recipes/recipes.json" : "file(recipes/recipes.json)",
+   "mixintos": {
 	  "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)"
    }
 }
