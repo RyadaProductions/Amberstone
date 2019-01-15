@@ -7,7 +7,7 @@
    "author": "The Amberstone mod team",
    "default_locale": "en",
    "aliases": {
-	  "kingdoms:amberstone": "file(data/kingdoms/amberstone_clan/amberstone_clan_population.json)"
+	  "kingdoms:amberstone_clan": "file(data/kingdoms/amberstone_clan/amberstone_clan_population.json)"
    }, 
    "mixintos": {
 	  "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)"
