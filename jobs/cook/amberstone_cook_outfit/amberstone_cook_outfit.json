@@ -21,6 +21,10 @@
          }
       }
    },
+   "stonehearth:equipment_piece": {
+      "render_type": "merge_with_model",
+      "slot": "torso"
+   },
    "entity_data": {
       "stonehearth:catalog": {
          "icon": "file(amberstone_cook_outfit.png)"
