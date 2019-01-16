@@ -2,18 +2,18 @@
    "type": "entity",
    "mixins": "stonehearth:shepherd:outfit",
    "components": {
-      "mixintypes": {
-         "default": "override",
-         "female": "override"
-      },
       "model_variants": {
-         "default": {
+         "mixintypes": {
+            "rabbit_male": "override",
+            "rabbit_female": "override"
+         },
+         "rabbit_male": {
             "layer": "clothing",
             "models": [
                "file(amberstone_shepherd_outfit.qb)"
             ]
          },
-         "female": {
+         "rabbit_female": {
             "layer": "clothing",
             "models": [
                "file(amberstone_shepherd_outfit_female.qb)"

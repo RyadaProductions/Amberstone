@@ -2,19 +2,19 @@
    "mixins": "stonehearth:mixins:item_properties",
    "type": "entity",
    "components": {
-      "mixintypes": {
-         "default": "override",
-         "female": "override"
-      },
       "model_variants": {
-         "default": {
+         "mixintypes": {
+            "rabbit_male": "override",
+            "rabbit_female": "override"
+         },
+         "rabbit_male": {
             "layer": "hat",
             "transparent": "true",
             "models": [
                "file(engineer_helm.qb)"
             ]
          },
-         "female": {
+         "rabbit_female": {
             "layer": "hat",
             "transparent": "true",
             "models": [

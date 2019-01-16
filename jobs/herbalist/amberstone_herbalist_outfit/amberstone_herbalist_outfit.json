@@ -4,16 +4,16 @@
    "components": {
       "model_variants": {
          "mixintypes": {
-            "default": "override",
-            "female": "override"
+            "rabbit_male": "override",
+            "rabbit_female": "override"
          },
-         "default": {
+         "rabbit_male": {
             "layer": "clothing",
             "models": [
                "file(amberstone_herbalist_outfit.qb)"
             ]
          },
-         "female": {
+         "rabbit_female": {
             "layer": "clothing",
             "models": [
                "file(amberstone_herbalist_outfit_female.qb)"
