@@ -2,6 +2,7 @@
    "type": "job",
    "mixins": "stonehearth:jobs:archer",
    "equipment": {
+      "helmet": "file(amberstone_archer_hood)",
       "torso": "file(amberstone_archer_outfit)"
    }
 }

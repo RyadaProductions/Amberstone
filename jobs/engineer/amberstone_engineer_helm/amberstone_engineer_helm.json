@@ -11,21 +11,21 @@
             "layer": "hat",
             "transparent": "true",
             "models": [
-               "file(engineer_helm.qb)"
+               "file(amberstone_engineer_helm.qb)"
             ]
          },
          "rabbit_female": {
             "layer": "hat",
             "transparent": "true",
             "models": [
-               "file(engineer_helm_female.qb)"
+               "file(amberstone_engineer_helm_female.qb)"
             ]
          }
       },
       "stonehearth:equipment_piece": {
          "render_type": "merge_with_model",
          "slot": "helmet",
-         "roles": ["engineer_job"],
+         "roles":["engineer_job"],
          "no_drop": true
       }
    },
@@ -33,8 +33,8 @@
       "stonehearth:catalog": {
          "display_name": "i18n(stonehearth:jobs.engineer.engineer_helm.display_name)",
          "description": "i18n(stonehearth:jobs.engineer.engineer_helm.description)",
-         "icon": "file(engineer_helm.png)",
-         "material_tags": ["goggles"]
+         "icon": "file(amberstone_engineer_helm.png)",
+         "material_tags":["goggles"]
       }
    }
 }

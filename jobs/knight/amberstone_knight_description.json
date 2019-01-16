@@ -2,6 +2,7 @@
    "type": "job",
    "mixins": "stonehearth:jobs:knight",
    "equipment": {
+      "helmet": "file(amberstone_knight_helm)",
       "torso": "file(amberstone_knight_outfit)"
    }
 }

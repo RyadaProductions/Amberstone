@@ -4,38 +4,22 @@
    "components": {
       "render_info": {},
       "mixintypes": {
-         "default": "override",
-         "female": "override",
          "rabbit_male": "override",
          "rabbit_female": "override"
       },
       "model_variants": {
-         "default": {
-            "layer": "hat",
-            "transparent": "false",
-            "models": [
-               "file(archer_hood.qb)"
-            ]
-         },
-         "female": {
-            "layer": "hat",
-            "transparent": "false",
-            "models": [
-               "file(archer_hood_female.qb)"
-            ]
-         },
          "rabbit_male": {
             "layer": "hat",
             "transparent": "false",
             "models": [
-               "file(archer_outfit_hood_rabbit.qb)"
+               "file(amberstone_archer_hood.qb)"
             ]
          },
          "rabbit_female": {
             "layer": "hat",
             "transparent": "false",
             "models": [
-               "file(archer_outfit_hood_rabbit.qb)"
+               "file(amberstone_archer_hood_female.qb)"
             ]
          }
       },
@@ -53,7 +37,7 @@
       "stonehearth:catalog": {
          "display_name": "i18n(stonehearth:jobs.archer.archer_outfit.archer_hood.display_name)",
          "description": "i18n(stonehearth:jobs.archer.archer_outfit.archer_hood.description)",
-         "icon": "file(archer_hood.png)"
+         "icon": "file(amberstone_archer_hood.png)"
       }
    }
 }

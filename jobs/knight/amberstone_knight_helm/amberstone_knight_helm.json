@@ -11,36 +11,24 @@
             "layer": "hat",
             "transparent": "false",
             "models": [
-               "file(knight_helm.qb)"
+               "file(amberstone_knight_helm.qb)"
             ]
          },
          "rabbit_female": {
             "layer": "hat",
             "transparent": "false",
             "models": [
-               "file(knight_helm_female.qb)"
+               "file(amberstone_knight_helm_female.qb)"
             ]
          }
-      },
-      "stonehearth:equipment_piece": {
-         "render_type": "merge_with_model",
-         "slot": "helmet",
-         "ilevel": 4,
-         "roles": ["knight_job"],
-         "no_drop": true
       }
    },
    "entity_data": {
       "stonehearth:combat:armor_data": {
-         "base_damage_reduction": 4
+         "base_damage_reduction": 3
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:jobs.knight.knight_helm.display_name)",
-         "description": "i18n(stonehearth:jobs.knight.knight_helm.description)",
-         "icon": "file(knight_helm.png)",
-         "is_item": true,
-         "category": "armor",
-         "material_tags":["iron", "armor", "heavy_armor"]
+         "icon": "file(amberstone_knight_helm.png)"
       }
    }
 }
