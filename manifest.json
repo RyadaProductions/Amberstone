@@ -25,11 +25,11 @@
       "jobs:shepherd": "file(jobs/shepherd/amberstone_shepherd_description.json)",
       "jobs:trapper": "file(jobs/trapper/amberstone_trapper_description.json)",
       "jobs:weaver": "file(jobs/weaver/amberstone_weaver_description.json)",
-      "jobs:worker": "file(jobs/worker/amberstone_worker_description.json)"
+      "jobs:worker": "file(jobs/worker/amberstone_worker_description.json)",
+      "jobs:worker:outfit:winter": "file(jobs/worker/amberstone_winter_worker_outfit/amberstone_winter_worker_outfit.json)"
    }, 
    "mixintos": {
-      "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
-      "stonehearth/jobs/worker/winter_worker_outfit/winter_worker_outfit.json": "file(jobs/worker/amberstone_winter_worker_outfit.json)"
+      "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)"
    },
 	"overrides" : {},
 	"components" : {},
