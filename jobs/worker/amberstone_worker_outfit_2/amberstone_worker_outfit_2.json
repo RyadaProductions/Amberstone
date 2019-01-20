@@ -1,0 +1,24 @@
+{
+   "mixins": "stonehearth:mixins:worker_outfit_2",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "mixintypes": {
+            "rabbit_male": "override",
+            "rabbit_female": "override"
+         },
+         "rabbit_male": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_worker_outfit_2_male.qb)"
+            ]
+         },
+         "rabbit_female": {
+            "layer": "clothing",
+            "models": [
+               "file(amberstone_worker_outfit_2_female.qb)"
+            ]
+         }
+      }
+   }
+}

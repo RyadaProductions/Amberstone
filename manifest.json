@@ -29,7 +29,8 @@
    }, 
    "mixintos": {
       "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
-      "stonehearth:worker:outfit:winter": "file(jobs/worker/amberstone_winter_worker_outfit/amberstone_winter_worker_outfit.json)"
+      "stonehearth:worker:outfit:winter": "file(jobs/worker/amberstone_winter_worker_outfit/amberstone_winter_worker_outfit.json)",
+      "stonehearth:worker:outfit:2": "file(jobs/worker/amberstone_worker_outfit_2/amberstone_worker_outfit_2.json)"
    },
 	"overrides" : {},
 	"components" : {},
