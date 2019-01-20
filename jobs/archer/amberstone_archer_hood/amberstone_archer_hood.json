@@ -2,12 +2,11 @@
    "type": "entity",
    "mixins": "stonehearth:mixins:item_properties",
    "components": {
-      "render_info": {},
-      "mixintypes": {
-         "rabbit_male": "override",
-         "rabbit_female": "override"
-      },
       "model_variants": {
+         "mixintypes": {
+            "rabbit_male": "override",
+            "rabbit_female": "override"
+         },
          "rabbit_male": {
             "layer": "hat",
             "transparent": "false",
@@ -22,22 +21,6 @@
                "file(amberstone_archer_hood_female.qb)"
             ]
          }
-      },
-      "stonehearth:equipment_piece": {
-         "render_type": "merge_with_model",
-         "slot": "helmet",
-         "ilevel": 2,
-         "no_drop": true
-      }
-   },
-   "entity_data": {
-      "stonehearth:combat:armor_data": {
-         "base_damage_reduction": 2
-      },
-      "stonehearth:catalog": {
-         "display_name": "i18n(stonehearth:jobs.archer.archer_outfit.archer_hood.display_name)",
-         "description": "i18n(stonehearth:jobs.archer.archer_outfit.archer_hood.description)",
-         "icon": "file(amberstone_archer_hood.png)"
       }
    }
 }

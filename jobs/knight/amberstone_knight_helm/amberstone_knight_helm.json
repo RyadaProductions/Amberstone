@@ -22,13 +22,5 @@
             ]
          }
       }
-   },
-   "entity_data": {
-      "stonehearth:combat:armor_data": {
-         "base_damage_reduction": 3
-      },
-      "stonehearth:catalog": {
-         "icon": "file(amberstone_knight_helm.png)"
-      }
    }
 }
