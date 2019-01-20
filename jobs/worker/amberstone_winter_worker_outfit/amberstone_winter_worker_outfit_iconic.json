@@ -1,13 +1,9 @@
 {
    "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
    "components": {
       "model_variants": {
-         "rabbit_male": {
-            "models": [
-               "file(amberstone_winter_worker_outfit_iconic.qb)"
-            ]
-         },
-         "rabbit_female": {
+         "default": {
             "models": [
                "file(amberstone_winter_worker_outfit_iconic.qb)"
             ]

@@ -1,6 +1,6 @@
 {
    "type": "entity",
-   "mixins": "stonehearth:worker:outfit:winter",
+   "mixins": "stonehearth:mixins:item_properties",
    "components": {
       "model_variants": {
          "mixintypes": {
@@ -21,9 +21,6 @@
                "file(amberstone_winter_worker_outfit_hood_female.qb)"
             ]
          }
-      },
-      "stonehearth:entity_forms": {
-         "iconic_form": "file(amberstone_winter_worker_outfit_iconic.json)"
       }
    }
 }
