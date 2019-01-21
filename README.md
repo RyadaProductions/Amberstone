@@ -1,4 +1,6 @@
 # Amberstone
+<a href="https://discord.gg/Kqhwfzd"><img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" /></a>
+
 Amberstone mod for Stonehearth
 
 # Installation
