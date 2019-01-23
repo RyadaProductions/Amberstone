@@ -12,7 +12,7 @@
     },
     "arcs" : {
        "trigger" : {
-          "town_progression" : "file(stonehearth/data/gm/campaigns/town_progression/arcs/trigger/town_progression/town_progression_arc.json)"
+          "town_progression" : "stonehearth/data/gm/campaigns/town_progression/arcs/trigger/town_progression/town_progression_arc.json"
        },
        "challenge" : {
        },

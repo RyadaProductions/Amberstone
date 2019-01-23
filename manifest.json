@@ -12,7 +12,8 @@
       "stonehearth_ace"
    ],
    "aliases": {
-	   "kingdoms:amberstone_clan": "file(data/kingdoms/amberstone_clan/amberstone_clan_population.json)",
+      "kingdoms:amberstone_clan": "file(data/kingdoms/amberstone_clan/amberstone_clan_population.json)",
+      "data:gm_index": "file(data/gm/gm_index.json)",
       "jobs:index": "file(jobs/amberstone_index.json)",
       "jobs:archer": "file(jobs/archer/amberstone_archer_description.json)",
       "jobs:blacksmith": "file(jobs/blacksmith/amberstone_blacksmith_description.json)",
@@ -34,10 +35,10 @@
    }, 
    "mixintos": {
       "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
+      "stonehearth:data:gm_index": "amberstone:data:gm_index",
       "stonehearth:worker:outfit:winter": "file(jobs/worker/amberstone_winter_worker_outfit/amberstone_winter_worker_outfit.json)",
       "stonehearth:worker:outfit:2": "file(jobs/worker/amberstone_worker_outfit_2/amberstone_worker_outfit_2.json)",
-      "stonehearth_ace:farmer:initial_crops": "file(services/server/farming/data/initial_crops.json)",
-      "stonehearth:data:gm_index": "file(data/gm/campaigns/gm_index.json)"
+      "stonehearth_ace:farmer:initial_crops": "file(services/server/farming/data/initial_crops.json)"
    },
 	"overrides" : {},
 	"components" : {},

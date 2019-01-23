@@ -12,9 +12,13 @@
     },
     "arcs": {
        "trigger": {
-          "caravan_shops": "file(stonehearth/data/gm/campaigns/trader_campaign/arcs/caravan_shops_arc.json)"
+          "caravan_shops": "/stonehearth/data/gm/campaigns/trader/arcs/caravan_shops_arc.json"
        },
-       "challenge": {},
-       "climax": {}
+       "challenge": {
+
+       },
+       "climax": {
+
+       }
     }
 }
