@@ -40,7 +40,14 @@
       "stonehearth:worker:outfit:2": "file(jobs/worker/amberstone_worker_outfit_2/amberstone_worker_outfit_2.json)",
       "stonehearth_ace:farmer:initial_crops": "file(services/server/farming/data/initial_crops.json)"
    },
-	"overrides" : {},
+	"overrides" : {
+      "stonehearth/data/rigs/entities/rabbit_biped/animations/archer_combat_1h_idle.json": "data/rigs/entities/rabbit_biped/animations/archer_combat_1h_idle.json",
+      "stonehearth/data/rigs/entities/rabbit_biped/animations/combat_1h_heal_long.json": "data/rigs/entities/rabbit_biped/animations/combat_1h_heal_long.json",
+      "stonehearth/data/rigs/entities/rabbit_biped/animations/combat_1h_heal.json": "data/rigs/entities/rabbit_biped/animations/combat_1h_heal.json",
+      "stonehearth/data/rigs/entities/rabbit_biped/animations/despair.json": "data/rigs/entities/rabbit_biped/animations/despair.json",
+      "stonehearth/data/rigs/entities/rabbit_biped/animations/hit_stun.json": "data/rigs/entities/rabbit_biped/animations/hit_stun.json"
+
+   },
 	"components" : {},
    "controllers" : {}
 }
